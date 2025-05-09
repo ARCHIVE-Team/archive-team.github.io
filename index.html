@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<title>ARCHIVE Team</title>
+<link rel="icon" href="icon.png">
+<style>
+
+body{
+    background-image: url("background.png");
+    overflow: hidden;
+}
+
+h1{
+    
+}
+
+div{
+  background-color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  padding: 30px;
+  background-size: cover;   
+  background-image: url("background.png");
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+ul, li{
+    margin: 0; padding: 0;
+}
+
+@keyframes slide{
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 220px;
+  }
+}
+
+@keyframes spin2{
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(2);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes spin{
+  0% {
+    transform: rotate3d(1, 1, 1, 0deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+}
+
+ul{ 
+    display: inline-block; 
+    text-align: left; 
+}
+
+</style>
+
+<script>
+window.onload = () => {
+    window.addEventListener("click", () => {
+        document.querySelector("audio").play();
+    });
+};
+</script>
+
+<audio src="soundtrack.mp3" autoplay></audio>
+
+<body>
+
+    <center>
+        <h1><IMG src="ARCHIVE Team_LOGO_Full_Background.png"></IMG></h1>
+        <div>
+        This website is not done yet so yeah.<br><br>
+        <ul>
+            <li><a href="https://www.instagram.com/archive_team_">Instagram</a></li>
+            <li><a href="https://youtube.com/@archive_team">Youtube</a></li>
+            <li><a href="https://archiveteam.newgrounds.com/">my newgrounds</a></li>
+            <li><a href="https://x.com/ARCHIVE_Team_"> X (Twitter)</a></li>
+            <li><a href="https://www.reddit.com/u/Archive_Team">Reddit</a></li>
+        </ul>
+        </div>
+    </center>
+
+</body>
